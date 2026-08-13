@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 70px;
+  background: #182b49;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 60px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links span {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-links span:hover {
+  color: #ffd166;
+}
+
+/* Main */
+
+.main-content {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 20px;
+}
+
+/* Form Card */
+
+.form-card {
+  width: 420px;
+
+  background: white;
+
+  padding: 35px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.form-card h1 {
+  text-align: center;
+  color: #182b49;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* Form */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+
+  padding: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 15px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #182b49;
+}
+
+/* Button */
+
+button {
+  width: 100%;
+
+  padding: 13px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #182b49;
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #29466f;
+}
+
+/* Success */
+
+.success-message {
+  margin-top: 25px;
+
+  padding: 15px;
+
+  background: #e8f8ee;
+
+  border-radius: 8px;
+
+  text-align: center;
+
+  color: #1d7a46;
+}
+
+.success-message h3 {
+  margin-bottom: 5px;
+}
+
+/* Footer */
+
+.footer {
+  height: 60px;
+
+  background: #182b49;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+/* Error Input */
+
+.error-input {
+  border: 2px solid #e74c3c !important;
+  background-color: #fff5f5;
+}
+
+/* Error Message */
+
+.error-message {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+/* Success Message */
+
+.success-message {
+  margin-top: 25px;
+  padding: 15px;
+
+  background-color: #e8f8ee;
+
+  border: 1px solid #2ecc71;
+  border-radius: 8px;
+
+  text-align: center;
+
+  color: #1d7a46;
+}}
